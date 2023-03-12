@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    background-color: #F2F2F2;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    background-size: contain;
+}
+.card  {
+    width: 350px;
+    margin: auto;
+    height: 580px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgb(37 12 61 / 45%) 0px 5px 15px 0px;
+}
+.upper img{
+  max-width: 100%;
+  border-top-right-radius: 12px; 
+  border-top-left-radius: 12px;
+}
+.upper h1 {
+    text-align: center;
+    font-size: 22px;
+    color: hsl(223, 47%, 23%);
+}
+.upper p {
+    text-align: center;
+    font-size: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color:hsl(224, 23%, 55%);
+}
+.info{
+    display: flex;
+    height: 90px;
+    width: 300px;
+    background-color:hsl(225, 100%, 98%);
+    margin: 30px;
+    border-radius: 20px;
+}
+.music img{
+   margin: 20px;
+
+}
+.anual{
+    line-height: 10px;
+
+}
+.anual h1 {
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    margin-top: 20px;
+}
+.anual p{
+    color:hsl(224, 23%, 55%);
+}
+.change h1{
+    font-size:16px ;
+    margin: 45px ;
+    margin-top: 30px;
+    cursor: pointer;
+    color: blue;
+    
+}
+.payment{
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 12px;
+    line-height: 50px;
+    margin: 30px;
+    cursor: pointer;
+    box-shadow: rgb(37 12 61 / 45%) 0px 5px 15px 0px;
+}
+.payment h1 {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.cancel h1{
+text-align: center;
+color:hsl(224, 23%, 55%) ;
+font-size: 16px;
+margin-top: 32px;
+cursor: pointer;
+}
+.payment:hover {
+    background-color: #766CF1;
+}
+.change:hover h1{
+    color: #766CF1;
+}
